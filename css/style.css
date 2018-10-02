@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Lato';
+}
+
+.menu-container{
+    color:#fff;
+    background:#545775;
+    padding:10px 0px;
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+    
+}
+
+.menu{
+    width:900px;
+    display:flex;
+    justify-content:space-between;
+    padding:10px 5px;
+    font-size:17px;
+}
+
+.links{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.projects{
+    margin:0px 15px;
+}
+
+.about{
+    margin:0 10px;
+}
+
+.contact{
+    margin:0 5px;
+}
+
+a{
+    text-decoration:none;
+    color:#fff;
+    font-size:19px;
+}
+/*NAVBAR CSS END*/
+
+/*BRAND CSS START*/
+.brand-content{
+    background:#BFC8AD;
+    width:100%;
+    height:700px;
+    display:flex;
+    align-items: center;
+    flex-direction:column; 
+}
+
+.shooter img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border:5px solid #545775;;
+    margin:80px 0px 0px 0px;
+}
+
+.shooter img.animated {
+    animation-duration: 1.5s;
+  }
+
+.brand-content h2{
+      color:#545775;
+      margin:10px 0px;
+  }
+
+.brand-content p{
+    font-size:18px;
+    color:#545775;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin-top:15px;
+    font-family: 'Maven Pro';
+}
+
+.line{
+    color:#333;
+}
+
+/*Brand End*/
+
+/*Skills Section */
+
+.skills-container{
+    width:100%;
+    display:flex;
+    height:500px;
+    background:#90B494;
+    font-family:'Share Tech Mono';
+    justify-content:center;
+}
+
+
+
+.skills-body img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow:7px 7px 7px #666;
+    margin-right: 50px;
+}
+
+.skills-body{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.bodyText h2{
+    color:#545775;
+    margin-bottom: 10px;
+    font-size:2rem;
+}
+
+.bodyText p{
+    font-size:20px;
+    color:#666;
+}
+
+
+
+
+
+
+  
+
+/*Projects Section*/
+
+.projects-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background:whitesmoke;
+}
+
+.project-item{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 30px;
+    
+}
+#subheader{
+    margin-top:10px;
+    color:#90B494;
+}
+.img-item img{
+    width:70%;
+    height:70%;
+    margin:20px;
+    border:1px solid #333;
+    border-radius:8px;
+    box-shadow:0 2px 15px #000;
+}
+
+.project-content{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    margin-right: 30px;
+}
+
+
+@keyframes bounce{
+    40%{
+        transform:translateY(-3px);
+    }
+    90%{
+        transform:translateY(-1px);
+    }
+}
+
+.img-item img:hover{
+    animation:bounce 1s ease-out;
+}
+
+.project-content h2{
+    font-size:1.9rem;
+    color:#90B494;
+    font-family:'Maven Pro';
+}
+
+.project-content p{
+    font-size:17px;
+    margin-top:10px;
+    font-family:'Maven Pro';
+    color:#333;
+}
+
+/*Footer */
+
+.footer{
+    width:100%;
+    height:150px;
+    background:#BFC8AD;
+    
+
+}
+.social{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon .fa{
+    font-size:120px;
+    margin: 20px 0 0 0;
+
+}
+
+.icon .fa:hover{
+    animation:bounce 1s ease-out;
+}
+
+.fa-google{
+    color:gold;
+}
+.fa-github{
+    color:#000;
+}
+
+.fa-codepen{
+    color:#000;
+}
+.fa-twitter{
+    color:steelblue;
+}
+
+/*Skill Section Start*/
+
+
+
+
+/*Skill Section Ended*/
+
